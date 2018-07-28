@@ -51,11 +51,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT_kc(
   //,----+----+----+----+----+----.              ,----+----+----+----+----+----.
-     TILD,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
+     GRV,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,BSPC,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
      RST , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  ,LBRC,RBRC,BSLS,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     DEL ,    ,LEFT,RGHT, UP ,LBRC,               LEFT,DOWN, UP,RIGHT,PLUS,PIPE,
+     DEL ,    ,LEFT,RGHT, UP ,LBRC,               LEFT,DOWN, UP,RIGHT,EQL ,PIPE,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      BL_S,    ,    ,    ,DOWN,LCBR,LPRN,     RPRN,RCBR, P1 , P2 , P3 ,MINS,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
